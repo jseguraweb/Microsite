@@ -1,0 +1,182 @@
+/*-----------------------------------------------------------------
+
+RESET
+
+Colors:
+
+- red: #fb7d7d;
+- red2: #f93838;
+- yellow: #fbe47e;
+- orange-yellow: #f5c937;
+- shadow: #424241;
+
+------------------------------------------------------------------*/
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: left;
+    scroll-behavior: smooth;
+}
+
+/*-----------------------------------------------------------------
+
+FIRST VIEWPORT
+
+------------------------------------------------------------------*/
+
+.page {
+    height: 100vh;
+    width: 100%;
+}
+
+.first {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.above {
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.box {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.left {
+    border-right: 10px solid #000;
+}
+
+.left p {
+    font-size: 7vw;
+}
+
+.right {
+    background-color: #f5c937;
+}
+
+.right h1 {
+    font-size: 9vw;
+    color: #fff;
+}
+
+.below {
+    height: 20%;
+    background-color: #000;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0% 5%;
+}
+
+.triangle-down {
+    width: 0;
+    height: 0;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-top: 50px solid #fff;
+}
+
+.link-danke {
+    text-decoration: none;
+    color: #fff;
+}
+
+.link-danke:hover {
+    text-decoration: none;
+    color: #f5c937;
+}
+
+.below p {
+    font-size: 2.3vw;
+}
+
+/*-----------------------------------------------------------------
+
+SECOND VIEWPORT
+
+------------------------------------------------------------------*/
+
+.second {
+    background-image: url(../img/background-coding-display.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+/*-----------------------------------------------------------------
+
+THIRD VIEWPORT
+
+------------------------------------------------------------------*/
+
+.third {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background-color: #f5c937;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.frame {
+    background-color: #f5c937;
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 1px 1px 40px #424241;
+    border: 10px solid #000;
+}
+
+.marks {
+    width: 6vw;
+    height: auto;
+}
+
+.quote {
+    padding: 0% 10%;
+    text-align: center;
+    font-size: 4vw;
+    color: #fff;
+}
+
+.copyright {
+    display: block;
+    position: relative;
+    color: #000;
+    bottom: -125px;
+}
+
+
+/*---------------------------------------------------------------------
+CHANGING COLOR OF THE BACKGROUND
+---------------------------------------------------------------------*/
